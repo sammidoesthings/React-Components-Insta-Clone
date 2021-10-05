@@ -47,7 +47,7 @@ const App = () => {
       <SearchBar />
       {/* Add SearchBar and Posts here to render them */}
       {/* Check the implementation of each component, to see what props they require, if any! */}
-      <Posts likePost={likePost} posts={posts} />
+      <Posts posts={posts} likePost={likePost} />
     </div>
   );
 };
